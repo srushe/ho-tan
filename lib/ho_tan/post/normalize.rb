@@ -9,6 +9,8 @@ module HoTan
 
       class << self
         def for_create(params)
+          params = params.reject { |k, _v| ignorable_create_parameters.include?(k) }
+
           if url_encoded_create?(params)
             url_encoded_create_data_from(params)
           elsif json_create?(params)
@@ -52,6 +54,10 @@ module HoTan
 
           create_data['properties']['published'] ||= [Time.now.utc.iso8601]
           create_data
+        end
+
+        def ignorable_create_parameters
+          %w[access_token]
         end
       end
     end

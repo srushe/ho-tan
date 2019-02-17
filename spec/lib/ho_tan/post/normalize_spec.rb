@@ -34,7 +34,8 @@ RSpec.describe HoTan::Post::Normalize do
           'h' => h_value,
           'content' => 'hello world',
           'category' => %w[foo bar],
-          'photo' => 'https://photos.example.com/592829482876343254.jpg'
+          'photo' => 'https://photos.example.com/592829482876343254.jpg',
+          'access_token' => 'a-valid-token'
         }
       end
 
