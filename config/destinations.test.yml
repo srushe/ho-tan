@@ -1,0 +1,17 @@
+destinations:
+  -
+    uid: https://first-site.example.com/
+    name: Site 1
+    directory: content/site_1
+    base_url: https://first-site.example.com/
+  -
+    uid: https://second-site.example.com/
+    name: Site 2
+    directory: content/site_2
+    base_url: https://second-site.example.com/
+    default: true
+  -
+    uid: https://third-site.example.com/
+    name: Site 3
+    directory: content/site_3
+    base_url: https://third-site.example.com/

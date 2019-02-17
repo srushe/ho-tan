@@ -1,0 +1,6 @@
+.env
+config/*.yml
+!config/*.test.yml
+coverage/*
+spec/examples.txt
+tmp/*
