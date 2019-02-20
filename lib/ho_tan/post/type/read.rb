@@ -8,6 +8,10 @@ module HoTan
       class Read < Base
         private
 
+        def type_slug
+          properties['read-of'][0]['properties']['name'][0].split(':')[0].to_slug.normalize.to_s
+        end
+
         def type_directory
           'reading'
         end
