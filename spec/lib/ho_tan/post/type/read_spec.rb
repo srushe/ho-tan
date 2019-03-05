@@ -29,7 +29,7 @@ RSpec.describe HoTan::Post::Type::Read do
 
     let(:title) { 'Some title' }
 
-    it { expect(instance.path).to eq('reading/2019/02/07') }
+    it { expect(instance.path).to eq('reading/2019/02') }
   end
 
   describe '.slug' do

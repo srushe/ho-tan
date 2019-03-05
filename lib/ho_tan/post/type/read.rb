@@ -6,6 +6,10 @@ module HoTan
   class Post
     module Type
       class Read < Base
+        def path
+          @path ||= File.join(type_directory, Time.parse(data['properties']['published'][0]).strftime('%Y/%m'))
+        end
+
         private
 
         def type_slug
