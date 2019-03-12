@@ -104,7 +104,7 @@ RSpec.describe HoTan::Post do
     }
   end
   let(:post_type_class) do
-    %w[Article Bookmark Checkin Note Photo Read Reply Repost].sample
+    %w[Article Bookmark Checkin Like Note Photo Read Reply Repost].sample
   end
   let(:post_type_full_class) do
     Object.const_get("HoTan::Post::Type::#{post_type_class}")
