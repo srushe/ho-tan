@@ -175,8 +175,8 @@ module HoTan
       post.update!(params)
 
       if post.updated_url?
-        status 201
         headers 'Location' => post.absolute_url
+        status 201
       else
         status 204
       end
