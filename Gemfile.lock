@@ -24,7 +24,7 @@ GEM
     indieweb-post_types-identifier-bookmark (1.0.0)
       indieweb-post_types
     indieweb-post_types-identifier-read (0.1.0)
-    json (2.1.0)
+    json (2.3.0)
     multi_json (1.13.1)
     mustermann (1.0.3)
     public_suffix (3.0.3)
