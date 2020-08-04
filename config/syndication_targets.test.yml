@@ -1,8 +1,0 @@
-syndication_targets:
-  -
-    uid: https://twitter.com/
-    name: Twitter
-  -
-    uid: https://facebook.com/
-    name: Facebook
-
