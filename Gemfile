@@ -14,7 +14,7 @@ gem 'indieauth-token-verification'
 gem 'indieweb-post_types'
 gem 'indieweb-post_types-identifier-bookmark'
 gem 'indieweb-post_types-identifier-read'
-gem 'indieweb-post_types-identifier-scrobble', github: 'srushe/indieweb-post_types-identifier-scrobble'
+gem 'indieweb-post_types-identifier-scrobble'
 
 group :test, :development do
   gem 'rack-test'
